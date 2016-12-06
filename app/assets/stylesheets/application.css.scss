@@ -20,3 +20,14 @@
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
+
+body, .navbar {
+  //Gradient provided by @_ighosh at uiGradients.com
+  background: #1F1C2C; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #1F1C2C , #928DAB); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #1F1C2C , #928DAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+  border: none;
+}
